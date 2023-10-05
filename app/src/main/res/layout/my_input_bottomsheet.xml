@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/cut_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/baseline_add_24">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:boxStrokeColor="#1A237E"
+                app:boxStrokeErrorColor="#A80505"
+                android:textColorHint="@color/black"
+                app:hintTextColor="@color/black"
+                android:layout_marginHorizontal="14dp"
+                app:boxStrokeWidth="1dp"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/edtname"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:textSize="14sp"
+                    android:hint="Please Enter Your Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:boxStrokeColor="#1A237E"
+                android:layout_marginTop="8dp"
+                app:boxStrokeErrorColor="#A80505"
+                android:textColorHint="@color/black"
+                app:hintTextColor="@color/black"
+                android:layout_marginHorizontal="14dp"
+                app:boxStrokeWidth="1dp"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/edtFatherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:textSize="14sp"
+                    android:hint="Please Your Fathers Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:boxStrokeColor="#1A237E"
+                app:boxStrokeErrorColor="#A80505"
+                android:textColorHint="@color/black"
+                app:hintTextColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="14dp"
+                app:boxStrokeWidth="1dp"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/edtMotherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:textSize="14sp"
+                    android:hint="Please Enter Your Mother Name Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                app:boxStrokeColor="#1A237E"
+                app:boxStrokeErrorColor="#A80505"
+                android:textColorHint="@color/black"
+                app:hintTextColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="14dp"
+                app:boxStrokeWidth="1dp"
+                app:endIconMode="clear_text">
+
+                <EditText
+                    android:id="@+id/edtDateofBirth"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:textSize="14sp"
+                    android:hint="Please Enter Your Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#1A237E"
+                android:text="Save"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+            <Button
+                android:id="@+id/btn_Edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#1A237E"
+                android:text="Edit"
+                android:visibility="gone"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                app:cornerRadius="0dp" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
